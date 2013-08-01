@@ -1,5 +1,11 @@
 require "envelop/version"
 
+
 module Envelop
-  # Your code goes here...
+  autoload :Configuration, 'envelop/configuration'
+  autoload :Configurator, 'envelop/configurator'
+
+  def self.configure(env=ENV, &block)
+    Configuration.new env, &block
+  end
 end
