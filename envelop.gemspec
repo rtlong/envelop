@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Ryan Taylor Long"]
   spec.email         = ["ryan@rtlong.com"]
   spec.description   = %q{Envelops the ENV hash and provides a nicer interface for working with environment variables}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.summary       = spec.description
+  spec.homepage      = "https://github.com/rtlong/envelop"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
